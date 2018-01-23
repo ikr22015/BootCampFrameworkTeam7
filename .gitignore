@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/vcs.xml
+Generic/target/generated-sources/
+HealthFIrst/target/generated-sources/
+HealthFIrst/target/generated-test-sources/
+.DS_Store
