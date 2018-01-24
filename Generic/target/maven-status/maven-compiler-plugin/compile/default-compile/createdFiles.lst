@@ -1,1 +1,3 @@
 base/CommonAPI.class
+utilities/HelperMethods.class
+utilities/ReadExcelFile.class
