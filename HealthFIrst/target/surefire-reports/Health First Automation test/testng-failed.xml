@@ -6,17 +6,17 @@
   <parameter name="os_version" value="High Sierra"/>
   <parameter name="browserVersion" value="57.0"/>
   <parameter name="operating_system" value="OS X"/>
-  <parameter name="cloudEnvName" value="Saucelabs"/>
+  <parameter name="cloudEnvName" value="Browserstack"/>
   <parameter name="URL" value="https://healthfirst.org/"/>
   <test name="Amazon Home(failed)">
     <classes>
-      <class name="testcases.TestHomePage">
+      <class name="testcases.TestMemberSignUp">
         <methods>
+          <include name="testMemberSignUp"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
-          <include name="testSearch"/>
         </methods>
-      </class> <!-- testcases.TestHomePage -->
+      </class> <!-- testcases.TestMemberSignUp -->
     </classes>
   </test> <!-- Amazon Home(failed) -->
 </suite> <!-- Failed suite [Health First Automation test] -->
