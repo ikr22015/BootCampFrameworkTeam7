@@ -11,4 +11,10 @@ public class TestHomePage extends CommonAPI{
         HomePage hp = PageFactory.initElements(driver,HomePage.class);
         hp.search();
     }
+
+    @Test
+    public void testLangChangeEnglishToChinese(){
+        HomePage hp = PageFactory.initElements(driver,HomePage.class);
+        hp.langChangeEnglishToChinese();
+    }
 }
