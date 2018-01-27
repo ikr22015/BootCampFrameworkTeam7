@@ -36,7 +36,6 @@ public class HomePage extends CommonAPI{
         MongoConnection.connectMongoDB("ESPN","users");
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = MongoConnection.collection.find(basicDBObject);
-
         for (Document it:iterable){
             String username = (String) it.get("username");
             String password = (String) it.get("password");
