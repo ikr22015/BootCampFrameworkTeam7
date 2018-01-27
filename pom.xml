@@ -13,6 +13,7 @@
         <module>HealthFIrst</module>
         <module>CitiBank</module>
         <module>eBay</module>
+        <module>ESPN</module>
     </modules>
 
     <dependencyManagement>

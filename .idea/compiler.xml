@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CitiBank" />
         <module name="eBay" />
+        <module name="ESPN" />
         <module name="Generic" />
         <module name="HealthFIrst" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="BootCampFrameworkTeam7" target="1.5" />
       <module name="CitiBank" target="1.7" />
       <module name="eBay" target="1.7" />
+      <module name="ESPN" target="1.7" />
       <module name="Generic" target="1.8" />
       <module name="HealthFIrst" target="1.7" />
     </bytecodeTargetLevel>

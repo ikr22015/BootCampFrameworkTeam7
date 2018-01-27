@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ESPN test" duration-ms="15752" started-at="2018-01-27T17:57:45Z" finished-at="2018-01-27T17:58:01Z">
+    <groups>
+    </groups>
+    <test name="ESPN Automation" duration-ms="15752" started-at="2018-01-27T17:57:45Z" finished-at="2018-01-27T17:58:01Z">
+      <class name="testcses.TestHomePage">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcses.TestHomePage@39fb3ab6]" name="setUp" is-config="true" duration-ms="11881" started-at="2018-01-27T12:57:45Z" finished-at="2018-01-27T12:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.espn.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcses.TestHomePage@39fb3ab6]" name="login" duration-ms="3598" started-at="2018-01-27T12:57:57Z" finished-at="2018-01-27T12:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcses.TestHomePage@39fb3ab6]" name="cleanUp" is-config="true" duration-ms="228" started-at="2018-01-27T12:58:01Z" finished-at="2018-01-27T12:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testcses.TestHomePage -->
+    </test> <!-- ESPN Automation -->
+  </suite> <!-- ESPN test -->
+</testng-results>
