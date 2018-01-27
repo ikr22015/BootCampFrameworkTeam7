@@ -29,9 +29,9 @@ public class ProviderLogInPage {
         goTOHomePage.click();
     }
 
-    public void providerLogIn(){
-        providerUserNameField.sendKeys("ammyblackwood");
-        providerPasswordFieldfield.sendKeys("abc123");
+    public void providerLogIn(String username, String password){
+        providerUserNameField.sendKeys(username);
+        providerPasswordFieldfield.sendKeys(password);
         providerLogInBtn.click();
     }
 

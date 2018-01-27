@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BootCampFrameworkTeam7.iml" filepath="$PROJECT_DIR$/BootCampFrameworkTeam7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CitiBank/CitiBank.iml" filepath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealthFIrst/HealthFIrst.iml" filepath="$PROJECT_DIR$/HealthFIrst/HealthFIrst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eBay/eBay.iml" filepath="$PROJECT_DIR$/eBay/eBay.iml" />
     </modules>
   </component>
 </project>
