@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TestLogin extends CommonAPI{
     @Test
-    public void ee(){
+    public void testLogin()throws InterruptedException{
         Login login = PageFactory.initElements(driver,Login.class);
         login.goToLoginAndRegiPage();
         login.login();
