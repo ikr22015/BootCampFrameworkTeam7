@@ -16,8 +16,8 @@ public class CommonAPI {
 
     private String saucelabs_username = "";
     private String saucelabs_accesskey = "";
-    private String browserstack_username = "imrankabir2";
-    private String browserstack_accesskey = "h67Y83BpvWW9tDqzJCJe";
+    private String browserstack_username = "imrankabir1";
+    private String browserstack_accesskey = "BkCEKxRfMHZWNyex8jEE";
 
     @Parameters({"useCloudEnv","cloudEnvName","operating_system","os_version","browser_name","browserVersion","URL"})
     @BeforeMethod

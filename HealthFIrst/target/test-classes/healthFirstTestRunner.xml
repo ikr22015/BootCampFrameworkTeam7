@@ -3,7 +3,7 @@
 
 <suite name="Health First Automation test" parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="Browserstack"/>
     <parameter name="operating_system" value="OS X"/>
     <parameter name="os_version" value="High Sierra"/>

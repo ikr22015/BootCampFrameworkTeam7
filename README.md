@@ -4,7 +4,7 @@
   - Run test cases locally.
   - Run test cases from cloud. Env == browserstack.
   - Hooked github with Jenkins server to fetch code from CI.
-  - Get test data by POI achache, google sheet service API, MongoDB.
+  - Get test data by apache POI, google sheet service API, MongoDB.
   
 **Rest I need to do:**
   - Jmeter.
